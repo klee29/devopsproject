@@ -16,9 +16,11 @@ My Background: 2 years Amazon Web Service (Certified Solution Archtect, Develope
                Familiar with Security concept with hardward, software, networking, and management
                Least experience about Docker, Kubernetes, and Automation tool (CloudFormation; AWS, Ansible)
 
+
+
 Begin date: 5/11/2020
 
-# Ms_in_Cybersecurity # AWS_Certified # SAA # DA # SOA # SS # Docker # Kubernetes # Automation # CloudFormation # Ansible 
+Key words: MS in Cybersecurity, Certified AWS Solution Architect | Developer | SysOps Administrator Associate, Certified AWS Security Specialty, Docker, Kubernetes, Automation amd Configuration tools (Ansible, CloudFormation)
 
 
 
