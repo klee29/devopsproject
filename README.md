@@ -18,11 +18,15 @@ This is 'DevOps Engineering' project with several technical features below:
 
 
 
-                                                                                                           Begin date: 5/11/2020
+
 
    Key words: MS in Cybersecurity, Certified AWS Solution Architect | Developer | SysOps Administrator Associate, Certified AWS Security Specialty, Two tier web application, Docker, Kubernetes, Automation amd Configuration tools (Ansible, CloudFormation)
 
 
+
+
+
+                                                                                                         Begin Date: 5/11/2020
 
 
 
