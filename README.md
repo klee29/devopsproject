@@ -26,22 +26,3 @@ This is 'DevOps Engineering' project with several technical features below:
 
 
 
-   First step: Set up environment 
-What should I think about this? 
-- What kind of element we need to think? Server: AWS, Service: Apache Tomcat, MySQL, Jenkins, Github
-- What else? All service runs on docker
-- What is unfamiliar concept on me? Configuration (Docker, Kubernetes, Jenkins, Github, and etc)
-Let's try: 
-1) Make a server - In my case, I use Amazon web service with free-tier account. 
-2) Install all service on the server - Docker: install on Ubuntu and configured its group (usermod -a -G docker <user_name>)
-                                       Jenkins: 
-
-
-
-
-
-
-
-
-
-
