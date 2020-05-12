@@ -4,7 +4,7 @@
 
    Purpose: I try to look up and combine DevOps engineering feature what I learned until now. With this project, I'm going to make two or three tier web appliication system and then check my strong and weak point about this technologies and then improve this later on. 
 
-     This is 'DevOps Engineering' project with several technical features below:
+   This is 'DevOps Engineering' project with several technical features below:
    - Container - Docker
    - Orchestrating Contatiner - Kubernetes, EKS or ECS
    - CI/CD - Jenkins
