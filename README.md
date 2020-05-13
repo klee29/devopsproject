@@ -18,8 +18,8 @@
 
 
 My Background: 2 years Amazon Web Service (Certified Solution Archtect, Developer, SysOps Administrator, and Security Specialty), Familiar with Security concept with hardward, software, networking, and management, Least experience about Docker, Kubernetes, and Automation tool (CloudFormation; AWS, Ansible)
----
 
+---
 
 
 Key words: MS in Cybersecurity, Certified AWS Solution Architect | Developer | SysOps Administrator Associate, Certified AWS Security Specialty, Two tier web application, Docker, Kubernetes, Automation amd Configuration tools (Ansible, CloudFormation)
