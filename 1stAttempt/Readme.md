@@ -15,8 +15,8 @@ Let's try:
       ca-cerficiates: check security certificates
       curl: tools for transferring data
       software-properties-common: adds scripts for managing software
-- Add Docker's GPG Key: curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-- Install the Docker Repository: sudo add-app-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+- Add Docker's GPG Key: 'curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -'
+- Install the Docker Repository: 'sudo add-app-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"'
 - Update Repositories: sudo apt-get update
 - Install Latest VErsion of Docker: sudo apt-get install docker-ce
 - Configure grouping: usermod -a -G docker ubuntu
