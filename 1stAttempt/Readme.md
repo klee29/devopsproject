@@ -33,9 +33,13 @@ Let's try:
                                   mysql> ALTER USER 'root@"localhost' IDENTIFIED BY 'root'@'localhost' IDENTIFIED BY '[newpassword]';
 - [https://dev.mysql.com/doc/mysql-installation-excerpt/8.0/en/docker-mysql-getting-started.html](https://dev.mysql.com/doc/mysql-installation-excerpt/8.0/en/docker-mysql-getting-started.html)
             
-                        
-                                       Jenkins: 1) Get image - docker pull jenkins/jenkins
-                                           - Src: https://technology.riotgames.com/news/putting-jenkins-docker-container
+4) **Install all service on the server - Jenkins:**
+- Pull and Run the Jenkins Container image: docker pull jenkins/jenkins
+- Run Jenkins on Docker: docker run -p 8080:8080 --name=jenkins -d jenkins/jenkins
+-[https://technology.riotgames.com/news/putting-jenkins-docker-container](https://technology.riotgames.com/news/putting-jenkins-docker-container)
+
+5) **Install all service on the server - Tomcat:**
+
                                        Apache Tomcet: 1) Get image - docker pull tomcat
                                            - Src: https://hub.docker.com/_/tomcat
                                        MySQL: 1) Get image - docker pull mysql/mysql-server:latest
