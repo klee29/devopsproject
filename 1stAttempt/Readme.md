@@ -1,6 +1,6 @@
-# First Attempt: Set up all environment without Automation & Configuration concept 
+### First Attempt: Set up all environment without Automation & Configuration concept 
 
-## What should I think about this? 
+#### What should I think about this? 
 - What kind of element we need to think? Server: AWS, Service: Apache Tomcat, MySQL, Jenkins, Github
 - What else? All service runs on docker
 - What is unfamiliar concept on me? Configuration (Docker, Kubernetes, Jenkins, Github, and etc)
@@ -20,8 +20,9 @@ Let's try:
 - Update Repositories: sudo apt-get update
 - Install Latest VErsion of Docker: sudo apt-get install docker-ce
 - Configure grouping: usermod -a -G docker ubuntu
-                                                     - Src: https://phoenixnap.com/kb/how-to-install-docker-on-ubuntu-18-04
-3) **Install all service on the server - MySQL: **
+- [https://phoenixnap.com/kb/how-to-install-docker-on-ubuntu-18-04](https://phoenixnap.com/kb/how-to-install-docker-on-ubuntu-18-04)
+
+3) **Install all service on the server - MySQL:**
 - Pull the MySQL Docker Image: docker pull mysql/mysql-server:latest
                                verify the images: docker images
 - Deploy the MySQL Container: docker run --name=[container_name] -d mysql/mysql-server:latest
@@ -30,7 +31,7 @@ Let's try:
        Check Initial Password for MySQL: docker logs mysql
                                          docker exec -it [container_name] mysql -uroot -p
                                   mysql> ALTER USER 'root@"localhost' IDENTIFIED BY 'root'@'localhost' IDENTIFIED BY '[newpassword]';
-                                  
+- [https://dev.mysql.com/doc/mysql-installation-excerpt/8.0/en/docker-mysql-getting-started.html](https://dev.mysql.com/doc/mysql-installation-excerpt/8.0/en/docker-mysql-getting-started.html)
             
                         
                                        Jenkins: 1) Get image - docker pull jenkins/jenkins
